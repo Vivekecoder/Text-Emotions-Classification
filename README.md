@@ -6,8 +6,8 @@ This model is particularly useful for applications in sentiment analysis, custom
 ## Dataset
 The dataset used in this project consists of sentences labeled with corresponding emotions. The data is typically structured in a CSV or text file with two columns:
 
-**Text:** The input sentence or phrase.
-**Emotions:** The associated emotion label (e.g., happiness, sadness, anger).
+-**Text:** The input sentence or phrase.
+-**Emotions:** The associated emotion label (e.g., happiness, sadness, anger).
 This dataset serves as the foundation for training the model, allowing it to learn the relationships between the words in the sentences and the emotions they express.
 
 ## Features
