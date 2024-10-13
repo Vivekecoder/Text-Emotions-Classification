@@ -3,6 +3,13 @@ The Emotion Classification Model is a machine learning project that aims to clas
 
 This model is particularly useful for applications in sentiment analysis, customer feedback analysis, and social media monitoring, where understanding user sentiment is crucial.
 
+## Dataset
+The dataset used in this project consists of sentences labeled with corresponding emotions. The data is typically structured in a CSV or text file with two columns:
+
+**Text:** The input sentence or phrase.
+**Emotions:** The associated emotion label (e.g., happiness, sadness, anger).
+This dataset serves as the foundation for training the model, allowing it to learn the relationships between the words in the sentences and the emotions they express.
+
 ## Features
 - **Text Preprocessing**: The input text is cleaned to remove special characters and convert all text to lowercase, enhancing the quality of the training data.
 - **Tokenization**: Utilizes Keras' `Tokenizer` to convert text data into sequences of integers, representing the words in the dataset.
@@ -21,3 +28,9 @@ Create a requirements.txt file or install the necessary libraries directly:
 - Run the main script to train the model
 - After training, you can input sentences to predict their emotions interactively.
 - After training the model, the performance is evaluated using classification metrics and a confusion matrix. The classification report includes precision, recall, and F1-score for each emotion class, giving insights into how well the model performs.
+
+  ## Future Enhancements
+**Expanding the Dataset:** Incorporating a more extensive dataset with diverse emotions to improve model robustness and accuracy.
+**Advanced NLP Techniques:** Experimenting with more complex models such as transformers (e.g., BERT) for potentially better performance.
+**User Interface:** Developing a graphical user interface (GUI) to allow non-technical users to interact with the model more intuitively.
+**Multilingual Support:** Extending the model to classify emotions in multiple languages for broader applicability.
