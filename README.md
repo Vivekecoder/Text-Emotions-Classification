@@ -14,10 +14,10 @@ This model is particularly useful for applications in sentiment analysis, custom
 
 ## Install dependencies
 Create a requirements.txt file or install the necessary libraries directly:
-pip install pandas numpy keras tensorflow seaborn matplotlib scikit-learn
+**pip install pandas numpy keras tensorflow seaborn matplotlib scikit-learn**
 
 ## Usage
-Prepare your dataset in a text file (train.txt) formatted with two columns: Text (the input sentence) and Emotions (the corresponding emotion label), separated by a semicolon.
-Run the main script to train the model
-After training, you can input sentences to predict their emotions interactively.
-After training the model, the performance is evaluated using classification metrics and a confusion matrix. The classification report includes precision, recall, and F1-score for each emotion class, giving insights into how well the model performs.
+- Prepare your dataset in a text file (train.txt) formatted with two columns: Text (the input sentence) and Emotions (the corresponding emotion label), separated by a semicolon.
+- Run the main script to train the model
+- After training, you can input sentences to predict their emotions interactively.
+- After training the model, the performance is evaluated using classification metrics and a confusion matrix. The classification report includes precision, recall, and F1-score for each emotion class, giving insights into how well the model performs.
